@@ -20,7 +20,7 @@ The application is built using Python and Streamlit for the UI, with various mod
 ### Prerequisites
 Ensure you have Python 3.8 or higher installed on your system.
 ### Installation
-1. Clone the Repository: git clone https://github.com/yourusername/yourrepository.git
+1. Clone the Repository: git clone https://github.com/rahuljoshi1814/rahul-joshi1814-wasserstoff-AiInternTask.git
    cd yourrepository
 2. Create a Virtual Environment: python -m venv venv
    To activate virtual Environment: venv\Scripts\activate
