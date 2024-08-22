@@ -16,45 +16,6 @@ The application is built using Python and Streamlit for the UI, with various mod
 - Text Extraction: Extracts text from images, useful for OCR and document analysis.
 - Summarization: Summarizes the identified objects and extracted text for easier interpretation.
 
-## Project Structure
-project_root/
-│
-├── data/
-│ ├── input_images/ # Directory for input images
-│ ├── segmented_objects/ # Directory to save segmented object
-images
-│ └── output/ # Directory for output images and
-tables
-│
-├── models/
-│ ├── segmentation_model.py # Script for segmentation model
-│ ├── identification_model.py # Script for object identification
-model
-│ ├── text_extraction_model.py # Script for text/data extraction model
-│ └── summarization_model.py # Script for summarization model
-│
-├── utils/
-│ ├── preprocessing.py # Script for preprocessing functions
-│ ├── postprocessing.py # Script for postprocessing functions
-│ ├── data_mapping.py # Script for data mapping functions
-│ └── visualization.py # Script for visualization functions
-│
-
-├── streamlit_app/
-│ ├── app.py # Main Streamlit application script
-│ └── components/ # Directory for Streamlit components
-│
-├── tests/
-│ ├── test_segmentation.py # Tests for segmentation
-│ ├── test_identification.py # Tests for identification
-│ ├── test_text_extraction.py # Tests for text extraction
-│ └── test_summarization.py # Tests for summarization
-│
-├── README.md # Project overview and setup
-instructions
-├── requirements.txt # Required Python packages
-└── presentation.pptx # Presentation slides summarizing the
-
 ## Setup Instructions
 ### Prerequisites
 Ensure you have Python 3.8 or higher installed on your system.
