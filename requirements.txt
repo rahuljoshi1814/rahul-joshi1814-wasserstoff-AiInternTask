@@ -1,0 +1,11 @@
+torch
+torchvision
+matplotlib
+pandas
+pillow
+streamlit
+easyocr
+numpy
+git+https://github.com/openai/CLIP.git
+transformers
+
